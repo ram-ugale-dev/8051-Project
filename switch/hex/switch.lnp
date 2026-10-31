@@ -1,0 +1,4 @@
+".\hex\STARTUP.obj",
+".\hex\switch.obj" 
+TO ".\hex\switch" 
+PRINT(".\Listings\switch.m51")
