@@ -1,0 +1,43 @@
+C51 COMPILER V9.60.7.0   LED_BLINK                                                         10/31/2026 15:41:17 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE LED_BLINK
+OBJECT MODULE PLACED IN .\hex\led_blink.obj
+COMPILER INVOKED BY: C:\C51\BIN\C51.EXE led_blink.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\led_bli
+                    -nk.lst) TABS(2) OBJECT(.\hex\led_blink.obj)
+
+line level    source
+
+   1          #include <reg51.h>  // Header file for 8051 / AT89C51 registers
+   2          
+   3          // Function to generate a software delay
+   4          void delay(unsigned int time) {
+   5   1          unsigned int i, j;
+   6   1          for (i = 0; i < time; i++) {
+   7   2              for (j = 0; j < 1275; j++) {
+   8   3                  // Empty loop for delay (calibrated for ~11.0592 MHz crystal)
+   9   3              }
+  10   2          }
+  11   1      }
+  12           void main(void) {
+  13   1          while (1) {
+  14   2              P2 = 0x00;        // Set all pins of Port 2 to LOW (LED ON)
+  15   2              delay(100);       // Wait for 500 ms
+  16   2              P2 = 0xFF;        // Set all pins of Port 2 to HIGH (LED OFF)
+  17   2              delay(100);       // Wait for 500 ms
+  18   2          }
+  19   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     49    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,4 @@
+".\hex\STARTUP.obj",
+".\hex\led_blink.obj" 
+TO ".\hex\led_blink" 
+PRINT(".\Listings\led_blink.m51")
