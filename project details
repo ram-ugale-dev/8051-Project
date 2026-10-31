@@ -1,0 +1,32 @@
+# 8051-Project
+A collection of 8051 Microcontroller projects and practical experiments using Embedded C and Assembly Language. This repository covers hardware interfacing, timers, counters, interrupts, LCD, UART communication, sensors, and other embedded system applications. More projects will be added as I continue learning.
+
+# 8051 Microcontroller Projects
+
+## About This Repository
+This repository contains a collection of projects based on the 8051 Microcontroller, developed using Assembly Language and Embedded C.
+
+It covers practical implementations of microcontroller concepts, hardware interfacing, programming techniques, and embedded system applications.
+
+## Technologies & Tools
+- 8051 Microcontroller
+- Embedded C
+- 8051 Assembly Language
+- Keil µVision IDE
+- Proteus Design Suite
+
+## Topics Covered
+- Digital Input/Output Interfacing
+- LED and Switch Interfacing
+- Timer and Counter Programming
+- Interrupt Handling
+- LCD Interfacing
+- Seven Segment Display
+- Serial Communication (UART)
+- Sensor Interfacing
+- Embedded Systems Applications
+
+## Objective
+To develop practical knowledge of 8051 microcontroller programming, understand embedded system fundamentals, and build hands-on hardware interfacing projects.
+
+More projects and experiments will be added as I continue learning and exploring embedded systems.
