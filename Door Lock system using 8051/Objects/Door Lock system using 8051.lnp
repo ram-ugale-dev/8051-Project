@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\Door Lock system using 8051.obj" 
+TO ".\Objects\Door Lock system using 8051" 
+PRINT(".\Listings\Door Lock system using 8051.m51")
